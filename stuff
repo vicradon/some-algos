@@ -1,0 +1,27 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on lo, link-type EN10MB (Ethernet), capture size 262144 bytes
+07:31:19.954716 IP6 ip6-localhost.41658 > ip6-localhost.http: Flags [F.], seq 1170105720, ack 1238439691, win 512, options [nop,nop,TS val 401439404 ecr 401432371], length 0
+07:31:19.954759 IP6 ip6-localhost.http > ip6-localhost.41658: Flags [.], ack 1, win 512, options [nop,nop,TS val 401439404 ecr 401439404], length 0
+07:31:19.954887 IP6 ip6-localhost.41648 > ip6-localhost.http: Flags [F.], seq 1249073452, ack 201665181, win 512, options [nop,nop,TS val 401439405 ecr 401406672], length 0
+07:31:19.954912 IP6 ip6-localhost.http > ip6-localhost.41648: Flags [.], ack 1, win 512, options [nop,nop,TS val 401439405 ecr 401439405], length 0
+07:31:19.955471 IP6 ip6-localhost.39678 > ip6-localhost.http: Flags [S], seq 1401245008, win 65476, options [mss 65476,sackOK,TS val 401439405 ecr 0,nop,wscale 7], length 0
+07:31:19.955523 IP6 ip6-localhost.http > ip6-localhost.39678: Flags [S.], seq 433851809, ack 1401245009, win 65464, options [mss 65476,sackOK,TS val 401439405 ecr 401439405,nop,wscale 7], length 0
+07:31:19.955560 IP6 ip6-localhost.39678 > ip6-localhost.http: Flags [.], ack 1, win 512, options [nop,nop,TS val 401439405 ecr 401439405], length 0
+07:31:19.955843 IP6 ip6-localhost.39694 > ip6-localhost.http: Flags [S], seq 1088926511, win 65476, options [mss 65476,sackOK,TS val 401439406 ecr 0,nop,wscale 7], length 0
+07:31:19.955874 IP6 ip6-localhost.http > ip6-localhost.39694: Flags [S.], seq 257785688, ack 1088926512, win 65464, options [mss 65476,sackOK,TS val 401439406 ecr 401439406,nop,wscale 7], length 0
+07:31:19.955905 IP6 ip6-localhost.39694 > ip6-localhost.http: Flags [.], ack 1, win 512, options [nop,nop,TS val 401439406 ecr 401439406], length 0
+07:31:19.957391 IP6 ip6-localhost.39678 > ip6-localhost.http: Flags [P.], seq 1:770, ack 1, win 512, options [nop,nop,TS val 401439407 ecr 401439405], length 769: HTTP: GET / HTTP/1.1
+07:31:19.957430 IP6 ip6-localhost.http > ip6-localhost.39678: Flags [.], ack 770, win 506, options [nop,nop,TS val 401439407 ecr 401439407], length 0
+07:31:19.957713 IP6 ip6-localhost.http > ip6-localhost.39678: Flags [P.], seq 1:191, ack 770, win 512, options [nop,nop,TS val 401439407 ecr 401439407], length 190: HTTP: HTTP/1.1 304 Not Modified
+07:31:19.957772 IP6 ip6-localhost.39678 > ip6-localhost.http: Flags [.], ack 191, win 511, options [nop,nop,TS val 401439407 ecr 401439407], length 0
+07:31:20.040310 IP6 ip6-localhost.39678 > ip6-localhost.http: Flags [P.], seq 770:1360, ack 191, win 512, options [nop,nop,TS val 401439490 ecr 401439407], length 590: HTTP: GET /icons/ubuntu-logo.png HTTP/1.1
+07:31:20.040707 IP6 ip6-localhost.http > ip6-localhost.39678: Flags [P.], seq 191:583, ack 1360, win 512, options [nop,nop,TS val 401439490 ecr 401439490], length 392: HTTP: HTTP/1.1 404 Not Found
+07:31:20.040741 IP6 ip6-localhost.39678 > ip6-localhost.http: Flags [.], ack 583, win 509, options [nop,nop,TS val 401439490 ecr 401439490], length 0
+07:32:06.421111 IP6 ip6-localhost.39694 > ip6-localhost.http: Flags [.], ack 1, win 512, options [nop,nop,TS val 401485871 ecr 401439406], length 0
+07:32:06.421139 IP6 ip6-localhost.39678 > ip6-localhost.http: Flags [.], ack 583, win 512, options [nop,nop,TS val 401485871 ecr 401439490], length 0
+07:32:06.421151 IP6 ip6-localhost.http > ip6-localhost.39694: Flags [.], ack 1, win 512, options [nop,nop,TS val 401485871 ecr 401439406], length 0
+07:32:06.421160 IP6 ip6-localhost.http > ip6-localhost.39678: Flags [.], ack 1360, win 512, options [nop,nop,TS val 401485871 ecr 401439490], length 0
+07:32:20.012873 IP6 ip6-localhost.http > ip6-localhost.39694: Flags [F.], seq 1, ack 1, win 512, options [nop,nop,TS val 401499463 ecr 401439406], length 0
+07:32:20.016814 IP6 ip6-localhost.39694 > ip6-localhost.http: Flags [.], ack 2, win 512, options [nop,nop,TS val 401499467 ecr 401499463], length 0
+07:32:25.040949 IP6 ip6-localhost.http > ip6-localhost.39678: Flags [F.], seq 583, ack 1360, win 512, options [nop,nop,TS val 401504491 ecr 401439490], length 0
+07:32:25.084861 IP6 ip6-localhost.39678 > ip6-localhost.http: Flags [.], ack 584, win 512, options [nop,nop,TS val 401504535 ecr 401504491], length 0

@@ -1,0 +1,46 @@
+en
+!
+conf t
+!
+int g0/0
+!
+ip addr 172.55.33.2 255.255.0.0
+!
+no shut
+!
+
+
+en
+!
+conf t
+!
+int g0/1
+!
+ip addr 172.55.33.16 255.255.0.0
+!
+no shut
+!
+
+
+en
+!
+conf t
+!
+int g0/0
+!
+ip addr 174.24.0.1 255.252.0.0
+!
+no shut
+!
+
+
+en
+!
+conf t
+!
+int g0/1
+!
+ip addr 174.25.0.1 255.252.0.0
+!
+no shut
+!
